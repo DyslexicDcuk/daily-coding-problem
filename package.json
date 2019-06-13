@@ -1,0 +1,30 @@
+{
+  "name": "daily-coding-problem",
+  "version": "1.0.0",
+  "description": "coding exercise",
+  "scripts": {
+    "test": "mocha src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DyslexicDcuk/daily-coding-problem.git"
+  },
+  "author": "Damir Šehić",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DyslexicDcuk/daily-coding-problem/issues"
+  },
+  "homepage": "https://github.com/DyslexicDcuk/daily-coding-problem-node#readme",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.1.4",
+    "standard": "12.0.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "expect"
+    ]
+  }
+}
